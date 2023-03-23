@@ -17,4 +17,4 @@ SELECT
 FROM
   mimiciv_derived.icustay_detail AS d
   LEFT JOIN mimiciv_derived.height AS h USING(stay_id) 
-  LEFT JOIN mimiciv_derived.first_day_weight AS w USING(stay_id) 
+  LEFT JOIN mimiciv_derived.first_day_weight AS w USING(stay_id);

@@ -1,5 +1,6 @@
 SELECT
   subject_id,
+  charttime,
   d_dimer,
   fibrinogen,
   inr,
